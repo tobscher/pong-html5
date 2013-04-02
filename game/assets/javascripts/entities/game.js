@@ -1,6 +1,6 @@
 (function ($) {
   function Game(stage) {
-    this.ball = new Ball();
+    this.ball = new Ball(this);
     this.leftPlayer = new Player("left");
     this.rightPlayer = new Player("right");
     this.delimiter = new Delimiter();
